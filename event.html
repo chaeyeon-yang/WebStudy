@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>test</title>
+    <script>
+      function setColor(element){
+        if (element.value.length >= 2){
+          element.style.backgroundColor='yellow';
+        }
+        else{
+          element.style.backgroundColor='red'
+        }
+      }
+      window.onload = function() {
+        let userInput = document.querySelector("input");
+        userInput.addEventListener('click', function{
+          setColor(this);
+        });
+
+        userInput.addEventListener("input", function(
+          setColor(this);
+        ))
+      }
+    </script>
+  </head>
+  <body>
+    <label>User name: <input type="text" id="name"/></label>
+  </body>
+
+</html>
